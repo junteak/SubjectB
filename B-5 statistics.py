@@ -12,7 +12,7 @@ print('基本統計量の計算')
 
 
 #スペースで区切ってリスト nums = [int(e) for e in input().split()]  https://teratail.com/questions/151229
-nums = [int(e) for e in input('Enter several numbers to statistics by seperating with spaces : ').split()]
+nums = [int(e) for e in input('データを入力してください(スペース区切り): ').split()]
 print(nums)
 
 #sumを使わない合計 https://www.atmarkit.co.jp/ait/articles/1906/11/news007.html

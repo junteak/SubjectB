@@ -5,9 +5,8 @@ B-5 N面サイコロ
 '''
 import random
 
-
-dice_faces = int(input('\nHow many are the dice faces?: '))
-num_roll = int(input('How many times do I roll the dice?: '))
+dice_faces = int(input('\nサイコロの面の数は?: '))
+num_roll = int(input('何回振りますか?: '))
 
 #連番を作る https://pg-chain.com/python-range
 dice_numer_list = list(range(1, dice_faces+1))
