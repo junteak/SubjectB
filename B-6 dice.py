@@ -17,6 +17,6 @@ def dice_rolling():
     for i in range(num_roll):
         list.append(random.choice(dice_numer_list))
     print()
-    print(f'The pip of the dice is {list}')
+    print(f'サイコロの目は {list}')
 
 dice_rolling()
